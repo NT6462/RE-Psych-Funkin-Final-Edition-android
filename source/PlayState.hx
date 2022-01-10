@@ -1125,7 +1125,7 @@ class PlayState extends MusicBeatState
 		#end
 
 		var creditText:FlxText = new FlxText(876, 648, 348);
-        creditText.text = 'PORTED BY\nNT846';
+        creditText.text = 'PORTED BY\nYOUTUBE NT846';
         creditText.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
 		creditText.cameras = [camHUD];
         creditText.scrollFactor.set();
